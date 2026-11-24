@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "include": ["**/*.ts", "**/*.tsx"],
   "compilerOptions": {
     "target": "ES2022",
@@ -26,3 +27,12 @@
     "noUncheckedSideEffectImports": true
   }
 }
+=======
+  "compilerOptions": {
+    "strict": true,
+    "types": ["bun"],
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx"
+  }
+}
+>>>>>>> ce79779 (database completed)

@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 node_modules
+=======
+# deps
+node_modules/
+>>>>>>> ce79779 (database completed)
 .DS_Store
 dist
 dist-ssr
@@ -11,4 +16,7 @@ dist-ssr
 .vinxi
 __unconfig*
 todos.json
+<<<<<<< HEAD
 .vscode
+=======
+>>>>>>> ce79779 (database completed)

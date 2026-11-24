@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Welcome to your new TanStack Start app!
 
 # Getting Started
@@ -182,3 +183,27 @@ You can learn more about all of the offerings from TanStack in the [TanStack doc
 
 For TanStack Start specific documentation, visit [TanStack Start](https://tanstack.com/start).
 # hono-react-better-auth
+=======
+# Local Dev
+1. To install dependencies:
+
+```sh
+bun install
+```
+2. Copy `.env.example` to your own `.env` file and fill in variables 
+
+3. To setup database
+
+```sh
+bun run db:up
+bun run db:migrate
+```
+
+4. To run:
+
+```sh
+bun run dev
+```
+
+open http://localhost:3000
+>>>>>>> ce79779 (database completed)
