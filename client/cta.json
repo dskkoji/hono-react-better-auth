@@ -1,0 +1,14 @@
+{
+  "productName": "client",
+  "mode": "file-router",
+  "typescript": true,
+  "tailwindcss": true,
+  "packageManager": "bun",
+  "git": true,
+  "version": 1,
+  "framework": "react-cta",
+  "chosenAddOns": [
+    "eslint",
+    "tanstack-query"
+  ]
+}

@@ -1,49 +1,4 @@
 {
-<<<<<<< HEAD
-  "name": "client",
-  "private": true,
-  "type": "module",
-  "imports": {
-    "#/*": "./src/*"
-  },
-  "scripts": {
-    "dev": "vite dev --port 5000",
-    "start": "vite --port 5000",
-    "generate-routes": "tsr generate",
-    "build": "vite build && tsc",
-    "serve": "vite preview"
-  },
-  "dependencies": {
-    "@tailwindcss/vite": "^4.1.18",
-    "@tanstack/react-devtools": "0.10.15",
-    "@tanstack/react-query": "^5.108.3",
-    "@tanstack/react-query-devtools": "^5.108.3",
-    "@tanstack/react-router": "1.170.46",
-    "@tanstack/react-router-devtools": "1.167.4",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "tailwindcss": "^4.1.18"
-  },
-  "devDependencies": {
-    "@tanstack/devtools-vite": "0.8.7",
-    "@tanstack/router-cli": "^1.132.0",
-    "@tanstack/router-plugin": "1.169.0",
-    "@types/node": "^22.10.2",
-    "@types/react": "^19.2.0",
-    "@types/react-dom": "^19.2.0",
-    "@vitejs/plugin-react": "^6.0.1",
-    "typescript": "^6.0.2",
-    "vite": "^8.0.0",
-    "web-vitals": "^6.2.3"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "esbuild",
-      "lightningcss"
-    ]
-  }
-}
-=======
   "name": "hono-react-better-auth",
   "scripts": {
     "server": "bun run --hot server/index.ts",
@@ -53,9 +8,11 @@
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "db:studio": "drizzle-kit studio",
-    "db:seed": "bun run ./scripts/seed-local-db.script.ts"
+    "db:seed": "bun run ./scripts/seed-local-db.script.ts",
+    "open-auth-docs": "open-cli http://localhost:3000/api/auth/reference"
   },
   "dependencies": {
+    "better-auth": "^1.7.28",
     "drizzle-orm": "^0.45.4",
     "hono": "^4.13.16",
     "pg": "^8.23.1"
@@ -65,7 +22,7 @@
     "@types/pg": "^8.23.1",
     "concurrently": "^10.0.7",
     "drizzle-kit": "^0.31.11",
-    "drizzle-seed": "^0.3.1"
+    "drizzle-seed": "^0.3.1",
+    "open-cli": "^9.0.0"
   }
 }
->>>>>>> ce79779 (database completed)
